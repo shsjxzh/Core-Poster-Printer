@@ -37,7 +37,7 @@ This is the Core poster printer workflow that has had the highest success rate f
 
    - `Paper Size`: Select `Custom Size`, then enter the actual poster size after scaling. In the example above, the scaled size is `64 in x 36 in`, so enter `64` for `Width` and `36` for `Height`. You do not need to change the margins.
 
-   ![Setting a custom paper size](core-poster-printer-assets/06-custom-paper-size.png)
+   <img src="core-poster-printer-assets/06-custom-paper-size.png" alt="Setting a custom paper size" width="520">
 
    Example `Page Setup` screen:
 
@@ -47,7 +47,7 @@ This is the Core poster printer workflow that has had the highest success rate f
 
    | Correct | Incorrect |
    | --- | --- |
-   | ![Correct preview example](core-poster-printer-assets/09-preview-correct.png) | ![Incorrect preview example](core-poster-printer-assets/08-preview-wrong.png) |
+   | <img src="core-poster-printer-assets/09-preview-correct.png" alt="Correct preview example" width="360"> | <img src="core-poster-printer-assets/08-preview-wrong.png" alt="Incorrect preview example" width="360"> |
 
 7. Click `Print`, then go to the Core 3rd-floor print room and wait for the poster to print.
 
