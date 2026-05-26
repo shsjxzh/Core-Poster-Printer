@@ -39,6 +39,7 @@
 
    - `Paper Size`: 选择 `Custom Size`，并设置为缩放完成后海报的实际大小。以上面的例子为例，缩放后为 `64 in x 36 in`，请在 `Width` 中填 `64`，在 `Height` 中填 `36`。`Margin` 不需要改变。
 
+
    <img src="core-poster-printer-assets/06-custom-paper-size.png" alt="设置 Custom Size" width="520">
 
    `Page Setup` 页面示例：
