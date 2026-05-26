@@ -10,15 +10,15 @@
 
    <https://weblogin.cs.rutgers.edu/guacamole-1.5.5/#/>
 
-   <img src="core-poster-printer-assets/01-weblogin-home.png" alt="Weblogin 登录页面" width="650">
+   <img src="core-poster-printer-assets/01-weblogin-home.png" alt="Weblogin 登录页面" width="500">
 
-   <img src="core-poster-printer-assets/02-weblogin-ilab.png" alt="iLab 连接页面" width="650">
+   <img src="core-poster-printer-assets/02-weblogin-ilab.png" alt="iLab 连接页面" width="500">
 
 2. 将需要打印的 poster（PDF 格式）下载到 iLab 服务器上。可以使用邮箱、网盘等方式传输文件。
 
 3. 在 iLab 虚拟机上，用 **Atril Document Viewer** 打开你的 poster。我们只成功了这个PDF Viewer。
 
-   <img src="core-poster-printer-assets/03-open-with-atril.png" alt="用 Atril Document Viewer 打开 poster" width="650">
+   <img src="core-poster-printer-assets/03-open-with-atril.png" alt="用 Atril Document Viewer 打开 poster" width="500">
 
 4. 根据海报文件尺寸计算缩放比例。请一定把海报的短边缩放至 `36 in`。
 
@@ -28,18 +28,18 @@
 
    `General` -> `Printer` -> `artisan`
 
-   <img src="core-poster-printer-assets/04-select-artisan-printer.png" alt="选择 artisan 打印机" width="650">
+   <img src="core-poster-printer-assets/04-select-artisan-printer.png" alt="选择 artisan 打印机" width="500">
 
    `Page Setup`:
 
    - `Scale`: 填入第 4 步计算出的比例。以上面的 `53.3 in x 30 in` 为例，`Scale` 为 `120%`。
    - `Orientation`: 选择 `Landscape`。这里假定你的海报文字是横向排布的。
 
-   <img src="core-poster-printer-assets/05-orientation-landscape.png" alt="设置 Landscape 方向" width="650">
+   ![设置 Landscape 方向](core-poster-printer-assets/05-orientation-landscape.png)
 
    - `Paper Size`: 选择 `Custom Size`，并设置为缩放完成后海报的实际大小。以上面的例子为例，缩放后为 `64 in x 36 in`，请在 `Width` 中填 `64`，在 `Height` 中填 `36`。`Margin` 不需要改变。
 
-   <img src="core-poster-printer-assets/06-custom-paper-size.png" alt="设置 Custom Size" width="650">
+   ![设置 Custom Size](core-poster-printer-assets/06-custom-paper-size.png)
 
    `Page Setup` 页面示例：
 
@@ -49,7 +49,7 @@
 
    | 正确 | 错误 |
    | --- | --- |
-   | <img src="core-poster-printer-assets/09-preview-correct.png" alt="预览正确示例" width="320"> | <img src="core-poster-printer-assets/08-preview-wrong.png" alt="预览错误示例" width="320"> |
+   | ![预览正确示例](core-poster-printer-assets/09-preview-correct.png) | ![预览错误示例](core-poster-printer-assets/08-preview-wrong.png) |
 
 7. 点击 `Print`，然后到 Core 三楼打印室等待打印。
 
@@ -57,7 +57,7 @@
 
    Core 三楼打印机：
 
-   <img src="core-poster-printer-assets/10-core-third-floor-printer.jpeg" alt="Core 三楼打印机" width="650">
+   <img src="core-poster-printer-assets/10-core-third-floor-printer.jpeg" alt="Core 三楼打印机" width="500">
 
 ## 成品展示
 
@@ -67,4 +67,4 @@
 
 以下几个打印机 warning 不用在意。如果确实没有油墨了，请通过墙上的电话联系工作人员。
 
-<img src="core-poster-printer-assets/12-printer-warnings.jpeg" alt="打印机 warning 示例" width="650">
+<img src="core-poster-printer-assets/12-printer-warnings.jpeg" alt="打印机 warning 示例" width="500">
