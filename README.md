@@ -56,9 +56,7 @@
      </tr>
      <tr>
        <td valign="top">
-         <div style="width: 360px; height: 312px; overflow: hidden;">
-           <img src="core-poster-printer-assets/09-preview-correct.png" alt="预览正确示例" width="360">
-         </div>
+         <img src="core-poster-printer-assets/09-preview-correct.png" alt="预览正确示例" width="360">
        </td>
        <td valign="top">
          <img src="core-poster-printer-assets/08-preview-wrong.png" alt="预览错误示例" width="360">

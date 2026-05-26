@@ -54,9 +54,7 @@ This is the Core poster printer workflow that has had the highest success rate f
      </tr>
      <tr>
        <td valign="top">
-         <div style="width: 360px; height: 312px; overflow: hidden;">
-           <img src="core-poster-printer-assets/09-preview-correct.png" alt="Correct preview example" width="360">
-         </div>
+         <img src="core-poster-printer-assets/09-preview-correct.png" alt="Correct preview example" width="360">
        </td>
        <td valign="top">
          <img src="core-poster-printer-assets/08-preview-wrong.png" alt="Incorrect preview example" width="360">
