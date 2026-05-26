@@ -20,7 +20,7 @@
 
    <img src="core-poster-printer-assets/03-open-with-atril.png" alt="用 Atril Document Viewer 打开 poster" width="500">
 
-4. 根据海报文件尺寸计算缩放比例。请一定把海报的短边缩放至 `36 in`。
+4. 根据海报文件尺寸**计算**缩放比例。**请一定把海报的短边缩放至 `36 in`**。
 
    例如，如果海报文件原尺寸是 `53.3 in x 30 in`，请使用 `120%` 作为缩放比例，最终会得到一张 `64 in x 36 in` 的海报。
 
@@ -32,13 +32,14 @@
 
    `Page Setup`:
 
-   - `Scale`: 填入第 4 步计算出的比例。以上面的 `53.3 in x 30 in` 为例，`Scale` 为 `120%`。
+   - `Scale`: 填入**第 4 步计算出的比例**。以上面的 `53.3 in x 30 in` 为例，`Scale` 为 `120%`。
    - `Orientation`: 选择 `Landscape`。这里假定你的海报文字是横向排布的。
 
    ![设置 Landscape 方向](core-poster-printer-assets/05-orientation-landscape.png)
 
-   - `Paper Size`: 选择 `Custom Size`，并设置为缩放完成后海报的实际大小。以上面的例子为例，缩放后为 `64 in x 36 in`，请在 `Width` 中填 `64`，在 `Height` 中填 `36`。`Margin` 不需要改变。
+   - `Paper Size`: 选择 `Custom Size`，并设置为**缩放完成后**海报的实际大小。以上面的例子为例，缩放后为 `64 in x 36 in`，请在 `Width` 中填 `64`，在 `Height` 中填 `36`。`Margin` 不需要改变。
 
+   <br>
 
    <img src="core-poster-printer-assets/06-custom-paper-size.png" alt="设置 Custom Size" width="520">
 

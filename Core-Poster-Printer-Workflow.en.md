@@ -18,7 +18,7 @@ This is the Core poster printer workflow that has had the highest success rate f
 
    <img src="core-poster-printer-assets/03-open-with-atril.png" alt="Opening the poster with Atril Document Viewer" width="500">
 
-4. Calculate the scale based on your poster dimensions. Make sure the shorter side of the poster is scaled to `36 in`.
+4. **Calculate** the scale based on your poster dimensions. **Make sure the shorter side of the poster is scaled to `36 in`**.
 
    For example, if the original poster size is `53.3 in x 30 in`, use `120%` as the scale. The final poster size will be `64 in x 36 in`.
 
@@ -30,12 +30,14 @@ This is the Core poster printer workflow that has had the highest success rate f
 
    `Page Setup`:
 
-   - `Scale`: Enter the percentage calculated in step 4. For the `53.3 in x 30 in` example above, use `120%`.
+   - `Scale`: Enter the **percentage calculated in step 4**. For the `53.3 in x 30 in` example above, use `120%`.
    - `Orientation`: Select `Landscape`. This assumes the poster text is arranged horizontally.
 
    ![Setting the orientation to Landscape](core-poster-printer-assets/05-orientation-landscape.png)
 
-   - `Paper Size`: Select `Custom Size`, then enter the actual poster size after scaling. In the example above, the scaled size is `64 in x 36 in`, so enter `64` for `Width` and `36` for `Height`. You do not need to change the margins.
+   - `Paper Size`: Select `Custom Size`, then enter the actual poster size **after scaling**. In the example above, the scaled size is `64 in x 36 in`, so enter `64` for `Width` and `36` for `Height`. You do not need to change the margins.
+
+   <br>
 
    <img src="core-poster-printer-assets/06-custom-paper-size.png" alt="Setting a custom paper size" width="520">
 
