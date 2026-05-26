@@ -8,15 +8,15 @@ This is the Core poster printer workflow that has had the highest success rate f
 
    <https://weblogin.cs.rutgers.edu/guacamole-1.5.5/#/>
 
-   ![Weblogin page](core-poster-printer-assets/01-weblogin-home.png)
+   <img src="core-poster-printer-assets/01-weblogin-home.png" alt="Weblogin page" width="650">
 
-   ![iLab connection page](core-poster-printer-assets/02-weblogin-ilab.png)
+   <img src="core-poster-printer-assets/02-weblogin-ilab.png" alt="iLab connection page" width="650">
 
 2. Download the poster you want to print, in PDF format, to the iLab server. Email, cloud storage, or similar file-transfer methods should work.
 
 3. On the iLab virtual machine, open your poster with Atril Document Viewer. This is the only viewer that worked for us.
 
-   ![Opening the poster with Atril Document Viewer](core-poster-printer-assets/03-open-with-atril.png)
+   <img src="core-poster-printer-assets/03-open-with-atril.png" alt="Opening the poster with Atril Document Viewer" width="650">
 
 4. Calculate the scale based on your poster dimensions. Make sure the shorter side of the poster is scaled to `36 in`.
 
@@ -26,28 +26,28 @@ This is the Core poster printer workflow that has had the highest success rate f
 
    `General` -> `Printer` -> `artisan`
 
-   ![Selecting the artisan printer](core-poster-printer-assets/04-select-artisan-printer.png)
+   <img src="core-poster-printer-assets/04-select-artisan-printer.png" alt="Selecting the artisan printer" width="650">
 
    `Page Setup`:
 
    - `Scale`: Enter the percentage calculated in step 4. For the `53.3 in x 30 in` example above, use `120%`.
    - `Orientation`: Select `Landscape`. This assumes the poster text is arranged horizontally.
 
-   ![Setting the orientation to Landscape](core-poster-printer-assets/05-orientation-landscape.png)
+   <img src="core-poster-printer-assets/05-orientation-landscape.png" alt="Setting the orientation to Landscape" width="650">
 
    - `Paper Size`: Select `Custom Size`, then enter the actual poster size after scaling. In the example above, the scaled size is `64 in x 36 in`, so enter `64` for `Width` and `36` for `Height`. You do not need to change the margins.
 
-   ![Setting a custom paper size](core-poster-printer-assets/06-custom-paper-size.png)
+   <img src="core-poster-printer-assets/06-custom-paper-size.png" alt="Setting a custom paper size" width="650">
 
    Example `Page Setup` screen:
 
-   ![Example Page Setup screen](core-poster-printer-assets/07-page-setup-summary.png)
+   <img src="core-poster-printer-assets/07-page-setup-summary.png" alt="Example Page Setup screen" width="650">
 
 6. Click `Preview`, which is next to the `Print` button. Confirm that the poster orientation and scale are correct and that there is not a large amount of white space.
 
    | Correct | Incorrect |
    | --- | --- |
-   | ![Correct preview example](core-poster-printer-assets/08-preview-correct.png) | ![Incorrect preview example](core-poster-printer-assets/09-preview-wrong.png) |
+   | <img src="core-poster-printer-assets/09-preview-correct.png" alt="Correct preview example" width="320"> | <img src="core-poster-printer-assets/08-preview-wrong.png" alt="Incorrect preview example" width="320"> |
 
 7. Click `Print`, then go to the Core 3rd-floor print room and wait for the poster to print.
 
@@ -55,14 +55,14 @@ This is the Core poster printer workflow that has had the highest success rate f
 
    Core 3rd-floor printer:
 
-   ![Core 3rd-floor printer](core-poster-printer-assets/10-core-third-floor-printer.jpeg)
+   <img src="core-poster-printer-assets/10-core-third-floor-printer.jpeg" alt="Core 3rd-floor printer" width="650">
 
 ## Finished Poster
 
-![Finished poster](core-poster-printer-assets/11-finished-poster.jpeg)
+<img src="core-poster-printer-assets/11-finished-poster.jpeg" alt="Finished poster" width="650">
 
 ## Notes
 
 You can ignore the printer warnings shown below. If the printer is actually out of ink, contact staff using the phone number posted on the wall.
 
-![Printer warning examples](core-poster-printer-assets/12-printer-warnings.jpeg)
+<img src="core-poster-printer-assets/12-printer-warnings.jpeg" alt="Printer warning examples" width="650">
