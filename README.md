@@ -49,9 +49,22 @@
 
 6. 点击 `Preview` 按钮（在 `Print` 按钮右边），确保打印的海报朝向和缩放正确，并且没有留下大量白边。
 
-   | 正确 ✔ | 错误 ✘ |
-   | --- | --- |
-   | <img src="core-poster-printer-assets/09-preview-correct.png" alt="预览正确示例" width="360"> | <img src="core-poster-printer-assets/08-preview-wrong.png" alt="预览错误示例" width="360"> |
+   <table>
+     <tr>
+       <th>正确 ✔</th>
+       <th>错误 ✘</th>
+     </tr>
+     <tr>
+       <td valign="top">
+         <div style="width: 360px; height: 312px; overflow: hidden;">
+           <img src="core-poster-printer-assets/09-preview-correct.png" alt="预览正确示例" width="360">
+         </div>
+       </td>
+       <td valign="top">
+         <img src="core-poster-printer-assets/08-preview-wrong.png" alt="预览错误示例" width="360">
+       </td>
+     </tr>
+   </table>
 
 7. 点击 `Print`，然后到 Core 三楼打印室等待打印。
 
