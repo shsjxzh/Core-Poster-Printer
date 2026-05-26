@@ -47,7 +47,7 @@ This is the Core poster printer workflow that has had the highest success rate f
 
 6. Click `Preview`, which is next to the `Print` button. Confirm that the poster orientation and scale are correct and that there is not a large amount of white space.
 
-   | Correct | Incorrect |
+   | Correct ✔ | Incorrect ✘ |
    | --- | --- |
    | <img src="core-poster-printer-assets/09-preview-correct.png" alt="Correct preview example" width="360"> | <img src="core-poster-printer-assets/08-preview-wrong.png" alt="Incorrect preview example" width="360"> |
 
