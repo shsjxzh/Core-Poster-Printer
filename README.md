@@ -78,6 +78,21 @@
 
 ## 备注
 
-以下几个打印机 warning 不用在意。如果确实没有油墨了，请通过墙上的电话联系工作人员。
-
+- 以下几个打印机 warning 不用在意。如果确实没有油墨了，请通过墙上的电话联系工作人员。
 <img src="core-poster-printer-assets/12-printer-warnings.jpeg" alt="打印机 warning 示例" width="500">
+
+- 如果电话也打不通的话，直接去CoRE 235 的LCSR Operator找人。如果CoRE 235还没人的话，问一下邻近LCSR办公室的职员。他们也很懂的。
+
+- 提交打印机任务后通常会有短暂的pending。通过学校内网，在这个网页中 [https://printserver.cs.rutgers.edu/jobs/](https://printserver.cs.rutgers.edu/jobs/) 可查看job提交情况。如果超过15分钟没反应，可在ilab terminal中检查打印机状态：
+   ```bash
+   lpstat -p artisan
+   ```
+   如果状态是这个，那么需要联系学校职员：
+   ```bash
+   printer artisan disabled since <time> -
+	cfFilterChain: pdftopdf (PID 2520749) exited with no errors.
+   ```
+   这个状态是可以工作的：
+   ```bash
+   printer artisan is idle.  enabled since <time>
+   ``` 
