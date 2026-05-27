@@ -76,6 +76,27 @@ This is the Core poster printer workflow that has had the highest success rate f
 
 ## Notes
 
-You can ignore the printer warnings shown below. If the printer is actually out of ink, contact staff using the phone number posted on the wall.
+- You can ignore the printer warnings shown below. If the printer is actually out of ink, contact staff using the phone number posted on the wall.
 
 <img src="core-poster-printer-assets/12-printer-warnings.jpeg" alt="Printer warning examples" width="500">
+
+- If the phone number does not work either, go directly to the LCSR Operator in CoRE 235. If no one is in CoRE 235, ask staff in the nearby LCSR offices. They are also familiar with the printer.
+
+- After submitting the print job, it is normal for it to stay pending briefly. On the campus network, you can check the job status at [https://printserver.cs.rutgers.edu/jobs/](https://printserver.cs.rutgers.edu/jobs/). If nothing happens for more than 15 minutes, check the printer status in the iLab terminal:
+
+   ```bash
+   lpstat -p artisan
+   ```
+
+   If the status looks like this, contact school staff:
+
+   ```bash
+   printer artisan disabled since <time> -
+	cfFilterChain: pdftopdf (PID 2520749) exited with no errors.
+   ```
+
+   This status means the printer is working:
+
+   ```bash
+   printer artisan is idle.  enabled since <time>
+   ```
