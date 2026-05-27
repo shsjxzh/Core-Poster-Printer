@@ -6,7 +6,7 @@ This is the Core poster printer workflow that has had the highest success rate f
 
 1. Log in to iLab through Weblogin:
 
-   <https://weblogin.cs.rutgers.edu/guacamole-1.5.5/#/>
+   <https://weblogin.cs.rutgers.edu/guacamole-1.6.0/#/>
 
    <img src="core-poster-printer-assets/01-weblogin-home.png" alt="Weblogin page" width="500">
 
@@ -18,34 +18,39 @@ This is the Core poster printer workflow that has had the highest success rate f
 
    <img src="core-poster-printer-assets/03-open-with-atril.png" alt="Opening the poster with Atril Document Viewer" width="500">
 
-4. **Calculate** the scale based on your poster dimensions. **Make sure the shorter side of the poster is scaled to `36 in`**.
-
-   For example, if the original poster size is `53.3 in x 30 in`, use `120%` as the scale. The final poster size will be `64 in x 36 in`.
-
-5. In Atril Document Viewer, press `Ctrl + P` and use the following settings.
+4. In Atril Document Viewer, press `Ctrl + P` and use the following settings.
 
    `General` -> `Printer` -> `artisan`
 
    <img src="core-poster-printer-assets/04-select-artisan-printer.png" alt="Selecting the artisan printer" width="500">
 
-   `Page Setup`:
+5. Switch to the `Page Setup` tab:
 
-   - `Scale`: Enter the **percentage calculated in step 4**. For the `53.3 in x 30 in` example above, use `120%`.
-   - `Orientation`: Select `Landscape`. This assumes the poster text is arranged horizontally.
+   <img src="core-poster-printer-assets/07-page-setup-summary-2.png" alt="Example Page Setup screen" width="650">
 
-   ![Setting the orientation to Landscape](core-poster-printer-assets/05-orientation-landscape.png)
+   - `Scale`: Calculate the scale based on your poster dimensions.
 
-   - `Paper Size`: Select `Custom Size`, then enter the actual poster size **after scaling**. In the example above, the scaled size is `64 in x 36 in`, so enter `64` for `Width` and `36` for `Height`. You do not need to change the margins.
+      > Make **absolutely sure** the shorter side of the poster is scaled to `36 in`. This printer cannot print posters wider than that.
 
-   <br>
+      For example, if the poster PDF is `48 in x 24 in` and you want a real poster size of `72 in x 36 in`, use `150%` as the scale.
 
-   <img src="core-poster-printer-assets/06-custom-paper-size.png" alt="Setting a custom paper size" width="520">
+      If you do not know the original size of the PDF, click `File` -> `Properties` in the Atril menu bar.
 
-   Example `Page Setup` screen:
+   - `Paper Size`: Select `Custom Size`, then enter the actual poster size **after scaling**. In the example above, the scaled size is `72 in x 36 in`.
 
-   <img src="core-poster-printer-assets/07-page-setup-summary.png" alt="Example Page Setup screen" width="650">
+      > Enter `36` for `Width` and `72` for `Height`. Even if your poster is horizontal, the printer's maximum width is `36`, so the poster will be printed vertically. If `Width` is larger than `36`, the printer may have issues.
 
-6. Click `Preview`, which is next to the `Print` button. Confirm that the poster orientation and scale are correct and that there is not a large amount of white space.
+      For the `Margins` setting, click `Margins from Printer` to use the margins from the printer settings.
+
+      <img src="core-poster-printer-assets/06-custom-paper-size-2.png" alt="Setting a custom paper size" width="520">
+
+   - `Orientation`: After the page size is set, the paper orientation will automatically become landscape or portrait.
+
+6. Switch to the `Page Handling` tab and use the settings shown below.
+
+   <img src="core-poster-printer-assets/06-page-handling.png" alt="Page Handling settings" width="520">
+
+7. Click `Preview`, which is next to the `Print` button. Confirm that the poster orientation and scale are correct and that there is not a large amount of white space.
 
    <table>
      <tr>
@@ -62,7 +67,7 @@ This is the Core poster printer workflow that has had the highest success rate f
      </tr>
    </table>
 
-7. Click `Print`, then go to the Core 3rd-floor print room and wait for the poster to print.
+8. Click `Print`, then go to the Core 3rd-floor print room and wait for the poster to print.
 
    If a size warning appears, press `Print Anyway` on the printer. It is the second option from the left. If the print job stops or errors for another reason, restart the printer. If the issue continues, call the phone number posted on the wall.
 
